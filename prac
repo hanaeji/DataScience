@@ -1,0 +1,8 @@
+import sqlite3
+import datetime
+
+now = datetime.datetime.now()
+print('now:', now)
+
+print(sqlite3.version)
+print(sqlite3.sqlite_version)
